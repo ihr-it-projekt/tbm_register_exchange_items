@@ -18,10 +18,11 @@ Citizen.CreateThread(function()
         local name = item.name
         local amountOfReward = item.amountOfReward
         ESX.RegisterUsableItem(name, function(source)
-            local firstCatId = 1
+            local firstCatId = 0
             local itemRewardCat, weaponRewardCat, moneyRewardCat, blackMoneyRewardCat
 
             if 0 < countItem then
+                firstCatId = firstCatId + 1
                 itemRewardCat = firstCatId
             end
 
