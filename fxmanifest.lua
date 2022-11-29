@@ -3,7 +3,7 @@ game 'gta5'
 
 author 'TheBuster'
 description 'tbm_register_exchange_items'
-version '1.1.0'
+version '1.1.1'
 
 server_scripts {
 	'config.lua',
